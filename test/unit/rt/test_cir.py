@@ -7,7 +7,7 @@ import numpy as np
 import tensorflow as tf
 import sionna
 from sionna.rt import load_scene, Transmitter, Receiver, PlanarArray, RIS
-from utils import r_hat, dot
+from .utils import r_hat, dot
 
 class TestCIR(unittest.TestCase):
 

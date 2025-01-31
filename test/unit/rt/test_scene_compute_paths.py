@@ -8,7 +8,7 @@ import numpy as np
 import tensorflow as tf
 import sionna
 from sionna.rt import load_scene, Transmitter, Receiver, PlanarArray, RIS
-from utils import *
+from .utils import *
 
 class TestSingleReflectionWithoutLoS(unittest.TestCase):
     def test_single_reflection_with_obstructed_los(self):

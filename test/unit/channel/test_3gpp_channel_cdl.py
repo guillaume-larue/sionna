@@ -6,7 +6,7 @@ import tensorflow as tf
 import unittest
 import numpy as np
 from sionna.channel.tr38901 import CDL, PanelArray
-from channel_test_utils import *
+from .channel_test_utils import *
 
 class TestCDL(unittest.TestCase):
     r"""Test the 3GPP CDL channel model
