@@ -10,7 +10,7 @@ from scipy.special import jv
 import sionna
 from sionna.channel.tr38901 import TDL
 from sionna.channel import exp_corr_mat
-from channel_test_utils import *
+from .channel_test_utils import *
 
 @pytest.mark.usefixtures("only_gpu")
 class TestTDL(unittest.TestCase):

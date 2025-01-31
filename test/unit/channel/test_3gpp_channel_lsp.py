@@ -7,7 +7,7 @@ import unittest
 import numpy as np
 import sionna
 from sionna import config
-from channel_test_utils import *
+from .channel_test_utils import *
 from scipy.stats import kstest, norm
 
 

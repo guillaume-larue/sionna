@@ -6,7 +6,7 @@ import tensorflow as tf
 import unittest
 import numpy as np
 import sionna
-from channel_test_utils import *
+from .channel_test_utils import *
 
 
 class TestScenario(unittest.TestCase):

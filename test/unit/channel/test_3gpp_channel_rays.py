@@ -9,7 +9,7 @@ from scipy.stats import kstest
 import tensorflow as tf
 import sionna
 from sionna import config
-from channel_test_utils import *
+from .channel_test_utils import *
 
 @pytest.mark.usefixtures("only_gpu")
 class TestRays(unittest.TestCase):
