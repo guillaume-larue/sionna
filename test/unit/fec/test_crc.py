@@ -192,6 +192,7 @@ class TestCRC(unittest.TestCase):
         for pol in VALID_POLS:
 
             ref_path = test_dir + '/codes/crc/'
+            # ref_path = './test/codes/crc/'
 
             # load reference codewords
             u = np.load(ref_path + "crc_u_" + pol + ".npy")

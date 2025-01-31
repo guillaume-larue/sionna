@@ -245,6 +245,7 @@ class TestViterbiDecoding(unittest.TestCase):
         """Test against pre-decoded results from reference implementation.
         """
         ref_path = test_dir + '/codes/conv/'
+        # ref_path = './test/codes/conv/'
         gs = [
             ['101', '111'],
             ['1101', '1111'],
@@ -558,8 +559,8 @@ class TestBCJRDecoding(unittest.TestCase):
     def test_ref_implementation(self):
         """Test against pre-decoded results from reference implementation.
         """
-
         ref_path = test_dir + '/codes/conv/'
+        # ref_path = './test/codes/conv/'
         gs = [
             ['101', '111'],
             ['1101', '1111'],

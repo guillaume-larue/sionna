@@ -192,6 +192,7 @@ class TestConvEncoding(unittest.TestCase):
         r"""Test against pre-encoded codewords from reference implementation.
         """
         ref_path = test_dir + '/codes/conv/'
+        # ref_path = './test/codes/conv/'
         gs = [
             ['101', '111'],
             ['1101', '1111'],

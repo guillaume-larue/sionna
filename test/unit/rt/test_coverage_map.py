@@ -885,6 +885,7 @@ class TestCovMapGradients(unittest.TestCase):
         mat.scattering_coefficient = tf.Variable(0.7, dtype=rdtype, trainable=True)
         mat.xpd_coefficient = tf.Variable(0.2, dtype=rdtype, trainable=True)
         scene.get("large_reflector").radio_material = mat
+        
 
         scene.tx_array = PlanarArray(num_rows=1,
                                     num_cols=1,

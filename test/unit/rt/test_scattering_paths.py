@@ -207,6 +207,7 @@ class TestScatteringPaths(unittest.TestCase):
                         p = tf.reduce_sum(tf.abs(tf.squeeze(a))**2,-1)
                         p_theo = np.abs(a_theo)**2
                         err_rel = 20*np.log10((np.abs(p-p_theo)/p_theo))
+                                          
                         if dtype==tf.complex64:
                             self.assertTrue(err_rel<-20)
                         else:
